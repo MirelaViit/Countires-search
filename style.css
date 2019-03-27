@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(203, 216, 203);
+  background-image: linear-gradient(rgb(253, 252, 251), rgb(226, 209, 195));
+}
+
+.countrybox {
+  border-radius: 5px;
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  margin: 0% 5%;
+  padding: 2% 10% 1% 10%;
+}
+
+h5 {
+  color: #555;
+}
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 8px 0;
+  width: 40%;
+  padding: 12px 20px;
+}
+
+input:focus {
+  background-color: lightgray;
+  border: 3px solid #555;
+}
+button {
+  background-image: linear-gradient(rgb(243, 149, 165), rgb(172, 74, 92));
+  border: solid 1px black;
+  border-radius: 4px;
+  cursor: pointer;
+  color: black;
+  display: inline;
+  font-weight: bold;
+  margin: 8px 0;
+  padding: 14px 20px;
+}
+
+button :hover {
+  background-image: linear-gradient(rgb(122, 111, 173), rgb(14, 3, 12));
+  color: white;
+}
+
+button:active {
+  background-image: linear-gradient(rgb(189, 25, 53), rgb(56, 7, 16));
+  box-shadow: 0 5px #666;
+  color: white;
+  transform: translateY(4px);
+}
+
+.main_box {
+  background-image: linear-gradient(rgb(33, 147, 176), rgb(109, 213, 237));
+  background-color: #e5bcd2;
+  border-radius: 5px;
+  margin: 2% 5%;
+  padding: 10px 0px 0px;
+  text-align: center;
+}
+
+html {
+  font-size: 20px;
+}
+
+/*responsivnest*/
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  html {
+    font-size: calc(16px + (20 - 16) * (100vw - 600px) / (900 - 600));
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 16px;
+  }
+}
