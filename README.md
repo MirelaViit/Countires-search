@@ -14,6 +14,6 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 ### Acknowledgments
 
-Integrify and Sherry
+Integrify and [Sherry](https://github.com/Sharareh)
 
 2019 [mirela](https://github.com/MirelaViit)
